@@ -1,11 +1,10 @@
 # Clarify 💡
 
-> **"Scaling high-impact instruction by transforming student confusion into actionable lesson plans."**
 
 ## 🎓 The Inspiration: My Journey as a ULA
 As an Undergraduate Learning Assistant (ULA) at Michigan State University, I support over 180+ students in a systems-level computer architecture course. 
 
-One of the most daunting challenges of being a ULA is the sheer breadth of the material. Like many assistants, I took this course several semesters ago. When you walk into a help room, students can ask you anything—from low-level assembly debugging to complex memory hierarchy questions. I’ve often seen (and felt) the pressure of being caught off guard or having to frantically recall a edge-case concept I haven't looked at in a year.
+One of the challenges of being a ULA is the sheer breadth of the material. Like many assistants, I took this course semesters ago. When you walk into a help room, students can ask you anything—from low-level assembly debugging to complex memory hierarchy questions. I’ve often seen (and felt) the pressure of being caught off guard or having to frantically recall a edge-case concept I haven't looked at in a year.
 
 **I built Clarify to solve this.** It’s a tool designed to help TAs and LAs prepare *before* the session. By seeing the exact conceptual hurdles students are facing, we can refresh our memory on the specific topics that will actually be asked, ensuring we provide accurate, confident guidance from the moment we walk in.
 
