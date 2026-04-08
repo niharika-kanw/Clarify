@@ -40,9 +40,9 @@ export default function Home() {
   return (
     <main className="container">
       <header>
-        <h1>Rate My Office Hours</h1>
+        <h1>Clarify</h1>
         <p className="subtitle">
-          Anonymously describe your confusion before stepping into office hours. We'll synthesize questions to help TAs prepare personalized, high-yield lessons.
+          Anonymously describe your confusion before stepping into office hours. We&apos;ll synthesize questions to help TAs prepare personalized, high-yield lessons.
         </p>
       </header>
 

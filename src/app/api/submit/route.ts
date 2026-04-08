@@ -131,7 +131,7 @@ export async function POST(req: Request) {
             title: [
               {
                 text: {
-                  content: `${course} Office Hours: ${topic}`,
+                  content: `Clarify: ${course} - ${topic}`,
                 },
               },
             ],

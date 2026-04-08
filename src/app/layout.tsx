@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rate My Office Hours",
-  description: "Anonymously describe your confusion before office hours",
+  title: "Clarify",
+  description: "Anonymously describe your confusion before stepping into office hours",
 };
 
 export default function RootLayout({
