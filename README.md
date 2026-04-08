@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clarify 💡
 
-## Getting Started
+> **"Scaling high-impact instruction by transforming student confusion into actionable lesson plans."**
 
-First, run the development server:
+## 🎓 The Inspiration: My Journey as a ULA
+As an Undergraduate Learning Assistant (ULA) at Michigan State University, I support over 180+ students in a systems-level computer architecture course. During our help-room sessions, I noticed a recurring bottleneck: the "Conceptual Surge." 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Dozens of students would arrive with the same core misunderstanding—whether it was assembly language memory hierarchy or pointer arithmetic—but each described it in a unique, fragmented way. Managing these individual queries in real-time meant I was often repeating the same core principles rather than teaching at scale.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**I built Clarify to solve this.** It’s a tool designed to help TAs and LAs stop being reactive and start being proactive.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 What is Clarify?
+Clarify is an AI-native preparation layer that bridges the gap between student confusion and effective help-room instruction. 
 
-## Learn More
+Prior to an office hours session, students submit their confusion anonymously. Clarify then uses AI to synthesize these queries into a **teaching game plan** that is automatically delivered to the instructor's Notion workspace.
 
-To learn more about Next.js, take a look at the following resources:
+### Core Features:
+*   **Anonymized Submission**: Reduces the "fear of asking" for students in complex courses like CSE 491.
+*   **AI Synthesis (Llama 3)**: Automatically identifies patterns in student confusion and generates a tailored, 3-part lesson plan for that specific session.
+*   **Notion Integration**: No new dashboards to learn—instructors receive their AI-generated guides directly in their existing team workflow.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
+*   **Frontend**: Next.js 15, React, TypeScript.
+*   **Design**: High-fidelity, custom Vanilla CSS (Premium Glassmorphic UI).
+*   **AI Layer**: Meta Llama 3 (via Groq SDK) for ultra-low latency inference.
+*   **Infrastructure**: Notion API for automated database and page generation.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Setup & Environmental Variables
+Clarify requires the following keys in a `.env.local` file:
+*   `NOTION_API_KEY`: Your Notion integration secret.
+*   `NOTION_DATABASE_ID`: The ID of your parent Notion page/database.
+*   `GROQ_API_KEY`: For Llama 3 inference.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+*Clarify was built with an "AI-First" mindset, specifically designed to solve the real-world operational challenges of university-level technical instruction.*
