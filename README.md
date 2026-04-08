@@ -39,4 +39,3 @@ Clarify requires the following keys in a `.env.local` file:
 
 ---
 
-*Clarify was built with an "AI-First" mindset, specifically designed to solve the real-world operational challenges of university-level technical instruction.*
