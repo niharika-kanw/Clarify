@@ -17,7 +17,7 @@ Clarify is an AI-native preparation layer that bridges the gap between student c
 Prior to an office hours session, students submit their confusion anonymously. Clarify then uses AI to synthesize these queries into a **teaching game plan** and a **memory-refresh guide** that is automatically delivered to the instructor's Notion workspace.
 
 ### Core Features:
-*   **Anonymized Submission**: Reduces the "fear of asking" for students in complex courses like CSE 491.
+*   **Anonymized Submission**: Reduces the "fear of asking" for students in complex courses.
 *   **AI Synthesis (Llama 3)**: Automatically identifies patterns in student confusion and generates a tailored, 3-part lesson plan for that specific session.
 *   **ULA Preparation Layer**: Allows assistants who haven't seen the material in months to focus their preparation on the specific topics that students are struggling with today.
 *   **Notion Integration**: No new dashboards to learn—instructors receive their AI-generated guides directly in their existing team workflow.
